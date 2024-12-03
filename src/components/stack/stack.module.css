@@ -1,0 +1,56 @@
+/* 7661BE */
+
+.stackBox {
+  @apply mt-20 w-full text-6xl mb-10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7661BE;
+  font-family: 'Freesentation-9Black';
+}
+
+.stackLayout {
+  @apply flex flex-col items-center gap-5;
+}
+
+.titleWithLine {
+  @apply flex items-center w-full;
+  /* Flexbox로 텍스트와 선을 같은 줄에 배치 */
+}
+
+.stackTitle {
+  @apply text-2xl ml-5;
+  font-weight: 900;
+  color: #7661BE;
+}
+
+.divider {
+  @apply h-0.5 bg-gray-300;
+  width: 83%;
+  flex-grow: 0;
+  margin-left: 20px;
+}
+
+.stackGrid {
+  @apply flex flex-wrap gap-5 ml-4;
+}
+
+.stackWrap {
+  @apply rounded-lg flex items-center h-14 p-4;
+  width: 27.8rem;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #E0E4EB;
+}
+
+
+.stackWrap>img {
+  @apply w-12 h-12;
+}
+
+.stackWrap ul li {
+  @apply ml-8;
+}
+
+.backend {
+  @apply mt-10;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about/about';
 import Header from './components/header/header';
 import Profile from './components/profile/profile';
+import Stack from './components/stack/stack';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         </div>
         <div className='contents'>
           <About />
-
+          <Stack />
         </div>
       </div>
     </div>
