@@ -1,0 +1,55 @@
+.squareBox {
+  @apply w-[17rem] rounded-2xl p-5 flex flex-col items-center justify-center;
+  height: 450px;
+  cursor: pointer;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+  transition: 400ms;
+  /* transition: all 0.5s ease; */
+}
+
+.squareBox:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.squareTextBox {
+  @apply flex flex-col;
+}
+
+.squareTextBox>span {
+  font-family: 'Pretendard-Regular';
+}
+
+.squareTextBox>span:nth-child(2) {
+  font-family: "Do Hyeon", sans-serif;
+  @apply text-lg;
+  font-weight: 900;
+  color: #7661BE;
+}
+
+.squareTextBox>span:nth-child(1) {
+  @apply pt-2;
+  font-weight: 800;
+  color: rgb(41, 41, 41);
+}
+
+.squareTextBox>span:nth-child(3) {
+  color: gray;
+  /* @apply text-xs; */
+  font-size: small;
+  font-family: 'Pretendard-Regular';
+}
+
+.webSize {
+  @apply w-72 pt-36;
+}
+
+.phoneSize {
+  @apply w-36 h-64;
+  margin-top: 40px;
+}

@@ -16,7 +16,6 @@
 
 .titleWithLine {
   @apply flex items-center w-full;
-  /* Flexbox로 텍스트와 선을 같은 줄에 배치 */
 }
 
 .stackTitle {

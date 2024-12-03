@@ -1,0 +1,125 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  @apply flex flex-col;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 1200px;
+  /* height: ; */
+  width: 90%;
+  position: relative;
+  /* text-align: center; */
+}
+
+.modalContent>h2 {
+  @apply pl-10;
+  font-family: 'Pretendard-Regular';
+}
+
+.modalBox {
+  @apply flex pt-2 items-center;
+  justify-content: space-between;
+  
+}
+
+.contentWrap {
+  @apply flex gap-8 pl-10 pt-8;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/* 왼쪽 BOX */
+.modalLeftBox>p {
+  /* font-size: 15px; */
+}
+
+.modalImage {
+  /* width: 100%;
+  height: auto; */
+  width: 230px;
+  height: 430px;
+  margin-top: 10px;
+}
+
+.WebImage {
+  padding-top: 30px;
+  height: 230px;
+  width: 430px;
+}
+
+
+.modalIcon>a>img {
+  width: 32px;
+  height: 32px;
+  transition: all 0.25s ease-out;
+  padding-left: 2px;
+}
+
+.modalIcon>a>img:hover {
+  transform: translateY(-5px);
+}
+
+.modalLine {
+  line-height: 1px;
+  border: 1px solid gray;
+}
+
+/* 오른쪽 BOX */
+.introWrap {
+  @apply flex flex-col gap-2 pt-4;
+}
+.introWrap > p {
+  margin: 0;
+  padding: 0;
+}
+
+.introWrap>p:nth-child(1) {
+  /* font-family: 'Pretendard-Regular'; */
+  font-weight: 700;
+
+}
+
+.introWrap>p:nth-child(2) {
+  @apply text-sm;
+  font-family: 'Pretendard-Regular';
+  
+}
+
+.introWrap ul {
+  /* list-style-type: disc; */
+  margin: 0;
+  padding-left: 20px;
+}
+
+.introWrap li {
+  @apply text-sm;
+  margin-bottom: 3px;
+}
+
+
+/* .modalRightBox>p:nth-child(even) {}
+
+.modalRightBox>p:nth-child(odd) {
+  font-weight: 900;
+} */
