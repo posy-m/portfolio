@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/protfolio/static/css/main.c4154d7e.css",
+    "main.js": "/protfolio/static/js/main.60e99ad9.js",
+    "static/media/picture.jpg": "/protfolio/static/media/picture.82f0fa62307b563b0f83.jpg",
+    "static/media/mimo3.png": "/protfolio/static/media/mimo3.23b36cce82feb525afb9.png",
+    "static/media/mimo2.png": "/protfolio/static/media/mimo2.2f11bf4c9669af36a20c.png",
+    "static/media/mimo1.png": "/protfolio/static/media/mimo1.edabf6be688d0e611e03.png",
+    "static/media/NestJS-Dark.svg": "/protfolio/static/media/NestJS-Dark.be7a3552333781a685d72f31548fcf58.svg",
+    "static/media/MySQL-Dark.svg": "/protfolio/static/media/MySQL-Dark.2c7bc3527aee2ed7b38cfc0e65a16b86.svg",
+    "static/media/NodeJS.svg": "/protfolio/static/media/NodeJS.d01eb487bc154d914fbee19be73a6ef0.svg",
+    "static/media/NextJS-Light.svg": "/protfolio/static/media/NextJS-Light.24b4ea0776052cd1aa534e3b400a6272.svg",
+    "static/media/React-Dark.svg": "/protfolio/static/media/React-Dark.45e05858175d1edbb57051533007343c.svg",
+    "static/media/TypeScript.svg": "/protfolio/static/media/TypeScript.5d93426aa26d9e2ac669d370a8fc46a1.svg",
+    "static/media/JavaScript.svg": "/protfolio/static/media/JavaScript.9a071f2801f9f92598764d48c7225305.svg",
+    "static/media/CSS.svg": "/protfolio/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
+    "static/media/HTML.svg": "/protfolio/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
+    "index.html": "/protfolio/index.html",
+    "main.c4154d7e.css.map": "/protfolio/static/css/main.c4154d7e.css.map",
+    "main.60e99ad9.js.map": "/protfolio/static/js/main.60e99ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4154d7e.css",
+    "static/js/main.60e99ad9.js"
+  ]
+}
