@@ -1,0 +1,60 @@
+
+
+.profileBox {
+  @apply h-max w-80 rounded-2xl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-top: 25%;
+  margin-left: 20%;
+  background-color: #E7E8EF;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.infoBox {
+  @apply pl-6 flex flex-col gap-7 pt-5
+}
+
+.info {
+  @apply flex flex-col gap-1;
+}
+
+.info>span:nth-child(1) {
+  color: #7661BE;
+  font-weight: 900;
+  font-size: small;
+}
+
+.info>span:nth-child(2) {
+  @apply text-lg;
+  font-weight: 600;
+}
+
+.imgSize>a:nth-child(2) {
+  @apply ml-2
+}
+
+.imgSize>a>img {
+  width: 15%;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.imgSize>a>img:hover {
+  transform: translateY(-5px);
+}
+
+.profileBox>img {
+  border-radius: 10%;
+  width: 50%;
+}

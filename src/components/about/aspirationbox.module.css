@@ -1,0 +1,79 @@
+.aspirationBox {
+  @apply gap-5;
+  display: flex;
+  justify-content: center;
+}
+
+.roundedBox {
+  @apply w-72 h-72 rounded-lg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E7E8EF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.roundedBox>span {
+  white-space: pre-line;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.roundedBox span:first-of-type {
+  @apply font-bold text-2xl;
+  color: #7661BE;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.roundedBox span:last-of-type {
+  @apply text-sm;
+  color: gray;
+}
+
+
+.roundedBox>img {
+  @apply w-28 h-28 pb-5;
+  transition: transform 0.3s ease;
+}
+
+.roundedBox:hover img {
+  /* animation: tilt 0.5s ease infinite; */
+  transform: scale(1.3);
+}
+
+.roundedBox>span {
+  transition: transform 0.3s ease;
+
+}
+
+.roundedBox:hover span {
+  transform: scale(1.1);
+}
+
+
+/* 고개 까딱 거리는 애니메이션 */
+/* @keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+
+  }
+
+  75% {
+    transform: rotate(-5deg);
+
+  }
+
+  100% {
+    transform: rotate(0deg);
+
+  }
+} */

@@ -1,0 +1,27 @@
+.aboutWrap {
+  @apply gap-7;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutBox>div:nth-child(1) {
+  color: #7661BE;
+  font-size: 3.7rem;
+  padding-bottom: 1.5rem;
+  line-height: 1;
+  text-align: center;
+  font-family: 'Freesentation-9Black';
+  text-transform: uppercase;
+}
+
+.aboutBox>div:nth-child(2) {
+  font-size: 1.8rem;
+  font-family: "Do Hyeon", sans-serif;
+  color: transparent;
+  background: linear-gradient(to right, #7761be59, #464174);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0 auto;
+  width: 43%;
+  text-align: center;
+}
