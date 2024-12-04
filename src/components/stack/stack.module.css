@@ -37,7 +37,7 @@
 
 .stackWrap {
   @apply rounded-lg flex items-center h-14 p-4;
-  width: 27.8rem;
+  width: 26.5rem;
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #E0E4EB;
 }
 
@@ -47,7 +47,8 @@
 }
 
 .stackWrap ul li {
-  @apply ml-8;
+  @apply ml-3 text-sm;
+  list-style: none;
 }
 
 /* .backend {

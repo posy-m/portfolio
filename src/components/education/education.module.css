@@ -1,5 +1,5 @@
 .educationBox {
-  @apply gap-10 pl-12 pb-12 mt-20;
+  @apply gap-10 pb-12 mt-20;
 }
 
 .educationBox>div:nth-child(1) {

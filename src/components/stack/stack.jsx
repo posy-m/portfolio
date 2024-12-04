@@ -10,6 +10,7 @@ import nodejs from '../../stackimg/NodeJS.svg'
 import nestjs from '../../stackimg/NestJS-Dark.svg'
 import react from '../../stackimg/React-Dark.svg'
 import nextjs from '../../stackimg/NextJS-Light.svg'
+import tailwindcss from '../../stackimg/TailwindCSS-Dark.svg'
 
 
 
@@ -59,6 +60,13 @@ const Stack = () => {
                 <img src={nextjs} alt="nextjs" />
                 <ul>
                   <li>파일 기반 라우팅을 통해 페이지를 관리할 수 있습니다.</li>
+                </ul>
+              </div>
+              <div className={styles.stackWrap}>
+                <img src={tailwindcss} alt="tailwindcss" />
+                <ul>
+                  <li>
+                    Tailwind CSS로 유틸리티 클래스를 활용해 직관적으로 스타일링하며, 반응형 디자인</li>
                 </ul>
               </div>
             </div>

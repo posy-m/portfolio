@@ -13,7 +13,7 @@ const Header = () => {
         <Link to='about' smooth={true} duration={500} >About</Link>
         <Link to='stack' smooth={true} duration={500} >Stack</Link>
         <Link to='portfolio' smooth={true} duration={500} >Portfolio</Link>
-        <Link to='education' smooth={true} duration={500} >Education</Link>
+        {/* <Link to='education' smooth={true} duration={500} >Education</Link> */}
       </div>
     </div>
   );

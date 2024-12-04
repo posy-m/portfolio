@@ -1,5 +1,6 @@
 
 import './App.css';
+// import './App_copy.css'
 import About from './components/about/about';
 import Education from './components/education/education';
 import Header from './components/header/header';
@@ -19,7 +20,7 @@ function App() {
           <About />
           <Stack />
           <Portfolio />
-          <Education />
+          {/* <Education /> */}
         </div>
       </div>
     </div>
