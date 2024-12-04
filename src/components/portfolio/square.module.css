@@ -1,6 +1,7 @@
 .squareBox {
-  @apply w-[17rem] rounded-2xl p-5 flex flex-col items-center justify-center;
-  height: 450px;
+  @apply w-[17rem] rounded-3xl p-5 flex flex-col items-center justify-center;
+  /* height: 450px; */
+  height: 15rem;
   /* height: 300px; */
   cursor: pointer;
   background-color: #E7E8EF;
@@ -16,20 +17,62 @@
 }
 
 .squareBox:hover {
+  background-color: #7661BE; 
+  /* transform: scale(1.05);  */
+}
+
+.squareTextBox > span {
+  transition: color 0.3s ease; 
+}
+
+.squareBox:hover .squareTextBox > span {
+  color: white; }
+  
+  .squareAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  
+  .squareAll:hover .projectnNo {
+    transition: color 0.3s ease; 
+
+}
+.squareAll:hover .projectnNo {
+  background-color: white;
+  color: #7661BE
+}
+
+.projectnNo{
+@apply w-44 h-11 rounded-full;
+  display: flex;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+  background-color: #7661BE;
+  color: white;
+position: relative;
+top: 25px;
+}
+
+/* .squareBox:hover {
   transform: scale(1.1, 1.1);
+} */
+
+.squareTextBox {
+  @apply flex flex-col items-center;
+  padding-top: 1rem; /* 텍스트와 이미지 간 간격 */
 }
 
 .squareTextBox {
-  @apply flex flex-col;
+  text-align: center;
 }
 
-.squareTextBox>span {
-  font-family: 'Pretendard-Regular';
-}
 
 .squareTextBox>span:nth-child(2) {
   font-family: "Do Hyeon", sans-serif;
-  @apply text-lg;
+  /* @apply text-lg; */
+  font-size: 1.5rem;
   font-weight: 900;
   color: #7661BE;
 }
@@ -44,14 +87,29 @@
   color: gray;
   /* @apply text-xs; */
   font-size: small;
-  font-family: 'Pretendard-Regular';
 }
 
-.webSize {
+.imgSize{
+@apply w-32 h-32 mt-4;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+}
+
+.imgContent{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지를 div 크기에 맞추면서 비율 유지 */
+
+}
+
+/* .webSize {
   @apply w-72 pt-36;
 }
 
 .phoneSize {
   @apply w-36 h-64;
   margin-top: 40px;
-}
+} */
