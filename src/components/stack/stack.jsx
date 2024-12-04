@@ -65,35 +65,35 @@ const Stack = () => {
           </div>
         </div>
 
-        <div className={styles.backend}>
-          <div className={styles.stackLayout}>
-            <div className={styles.titleWithLine}>
-              <span className={styles.stackTitle}>Backend</span>
-              <div className={styles.divider}></div>
+
+        <div className={styles.stackLayout}>
+          <div className={styles.titleWithLine}>
+            <span className={styles.stackTitle}>Backend</span>
+            <div className={styles.divider}></div>
+          </div>
+          <div className={styles.stackGrid}>
+            <div className={styles.stackWrap}>
+              <img src={nodejs} alt="nodejs" />
+              <ul>
+                <li>의존성 주입 기능을 활용해 객체간의 의존 관계를 이해하며 사용할 수 있습니다.</li>
+              </ul>
             </div>
-            <div className={styles.stackGrid}>
-              <div className={styles.stackWrap}>
-                <img src={nodejs} alt="nodejs" />
-                <ul>
-                  <li>의존성 주입 기능을 활용해 객체간의 의존 관계를 이해하며 사용할 수 있습니다.</li>
-                </ul>
-              </div>
-              <div className={styles.stackWrap}>
-                <img src={nestjs} alt="nestjs" />
-                <ul>
-                  <li>데코레이터를 사용하여 의존성 주입을 통해 코드를 효율적으로 관리할 수 있습니다. </li>
-                </ul>
-              </div>
-              <div className={styles.stackWrap}>
-                <img src={mysql} alt="mysql" />
-                <ul>
-                  <li>데이터를 효율적으로 저장하고 관리할 수 있습니다.</li>
-                </ul>
-              </div>
+            <div className={styles.stackWrap}>
+              <img src={nestjs} alt="nestjs" />
+              <ul>
+                <li>데코레이터를 사용하여 의존성 주입을 통해 코드를 효율적으로 관리할 수 있습니다. </li>
+              </ul>
+            </div>
+            <div className={styles.stackWrap}>
+              <img src={mysql} alt="mysql" />
+              <ul>
+                <li>데이터를 효율적으로 저장하고 관리할 수 있습니다.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+
     </Element>
   );
 };

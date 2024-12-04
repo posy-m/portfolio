@@ -11,7 +11,7 @@
 }
 
 .stackLayout {
-  @apply flex flex-col items-center gap-5;
+  @apply flex flex-col  gap-5 mt-10;
 }
 
 .titleWithLine {
@@ -50,6 +50,6 @@
   @apply ml-8;
 }
 
-.backend {
+/* .backend {
   @apply mt-10;
-}
+} */
