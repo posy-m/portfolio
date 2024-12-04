@@ -66,7 +66,7 @@ const Stack = () => {
                 <img src={tailwindcss} alt="tailwindcss" />
                 <ul>
                   <li>
-                    Tailwind CSS로 유틸리티 클래스를 활용해 직관적으로 스타일링하며, 반응형 디자인</li>
+                    Tailwind CSS로 유틸리티 클래스를 활용해 직관적으로 스타일링하며, 반응형 디자인을 구상할 수 있습니다.</li>
                 </ul>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Stack = () => {
             <div className={styles.stackWrap}>
               <img src={mysql} alt="mysql" />
               <ul>
-                <li>데이터를 효율적으로 저장하고 관리할 수 있습니다.</li>
+                <li>관계형 데이터베이스인 MYSQL을 통해 데이터를 효율적으로 저장하고 관리할 수 있습니다.</li>
               </ul>
             </div>
           </div>

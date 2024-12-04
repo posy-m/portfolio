@@ -15,7 +15,21 @@
 }
 
 .aboutBox>div:nth-child(2) {
-  font-size: 1.8rem;
+  @apply h-28 mb-5;
+  /* font-size: 1.8rem;
+  font-family: "Do Hyeon", sans-serif;
+  color: transparent;
+  background: linear-gradient(to right, #7761be59, #464174);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0 auto;
+  width: 43%;
+  text-align: center; */
+}
+
+.typed{
+  font-size: 2rem;
+  font-weight: 900;
   font-family: "Do Hyeon", sans-serif;
   color: transparent;
   background: linear-gradient(to right, #7761be59, #464174);
@@ -23,5 +37,6 @@
   background-clip: text;
   margin: 0 auto;
   /* width: 43%; */
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
