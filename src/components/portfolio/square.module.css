@@ -26,7 +26,8 @@
 }
 
 .squareBox:hover .squareTextBox > span {
-  color: white; }
+  color: white; 
+}
   
   .squareAll{
     display: flex;
@@ -38,10 +39,10 @@
     transition: color 0.3s ease; 
 
 }
-.squareAll:hover .projectnNo {
+/* .squareAll:hover .projectnNo {
   background-color: white;
   color: #7661BE
-}
+} */
 
 .projectnNo{
 @apply w-44 h-11 rounded-full;

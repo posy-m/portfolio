@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './square.module.css'
 
-function Square({ date, title, content, src, type, alt, onClick }) {
+function Square({ date, title, content, src, type, alt, onClick, no }) {
   // const imgsize = type === 'web' ? styles.webSize : styles.phoneSize;
   return (
     <div className={styles.squareAll}>
-      <div className={styles.projectnNo}>project</div>
+      <div className={styles.projectnNo}>project {no}</div>
       <div className={styles.squareBox} onClick={onClick}>
         <div className={styles.squareTextBox}>
           <span>{title}</span>
