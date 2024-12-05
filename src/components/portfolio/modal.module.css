@@ -125,17 +125,17 @@
     height: auto;
     padding: 20px;
     max-height: 80vh;
-    overflow-y: auto; /* 스크롤 가능 */
+    overflow-y: auto; 
   }
   .contentWrap {
-    flex-direction: column; /* 가로 정렬을 세로 정렬로 변경 */
+    flex-direction: column;
     gap: 16px;
   }
   .modalLeftBox, .modalRightBox {
-    width: 100%; /* 두 박스가 화면 전체 너비를 차지 */
+    width: 100%;
   }
   .modalImage, .WebImage {
-    width: 100%; /* 이미지 크기 유동적으로 변경 */
+    width: 100%;
     height: auto;
   }
 }
