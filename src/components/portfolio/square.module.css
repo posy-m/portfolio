@@ -35,11 +35,11 @@
     align-items: center
   }
   
-  .squareAll:hover .projectnNo {
+  /* .squareAll:hover .projectnNo {
     transition: color 0.3s ease; 
 
 }
-/* .squareAll:hover .projectnNo {
+.squareAll:hover .projectnNo {
   background-color: white;
   color: #7661BE
 } */

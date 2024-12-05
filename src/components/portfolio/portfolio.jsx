@@ -45,7 +45,7 @@ function Portfolio() {
         <div className={styles.squareWrap}>
           <Square
             no="1"
-            date="등산 앱테크"
+            date="Hybrid app"
             // title="24.09.24-24.10.24(30일)"
             content={"산을 오르며 고도에 따라 포인트를 적립할 수 있도록 하이브리드 앱을 구현 했습니다."}
             src={mountin}
@@ -77,14 +77,14 @@ function Portfolio() {
             })} />
           <Square
             no="2"
-            date="주류 커뮤니티 및 추천 사이트"
+            date="Community website"
             // title="24.07.18-24.08.15(18일)"
             content={"주류를 좋아하는 고객이 게시판을 통해 자유롭게 소통할 수 있는 커뮤니케이션 사이트"}
             src={whisky}
             alt={"이미지"}
             type={"web"}
             onClick={() => onpenModal({
-              title: "주류 커뮤니티 및 추천사이트",
+              title: "주류 커뮤니티 사이트",
               srcWeb: insideoutGif,
               dateTitle: "날짜",
               date: "2024.09.24-2024.10.24(30일)",
@@ -109,7 +109,7 @@ function Portfolio() {
             })} />
           <Square
             no="3"
-            date="도넛 커뮤니티 사이트"
+            date="Community website"
             // title="24.05.14-24.05.28(14일)"
             content={"홈페이지에 유입된 고객이 게시판을 통해 자유롭게 소통할 수 있는 커뮤니케이션 사이트"}
             src={donut}
